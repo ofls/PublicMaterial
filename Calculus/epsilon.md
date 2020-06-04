@@ -3,10 +3,14 @@
 
 # $\varepsilon$についてのお話
 
+<div style="text-align: right">
+会津大学修学支援室
+</div>
+
 ## はじめに
 この資料では微積分で学習する$\varepsilon$関連のトピックについて説明します。  
 基本的に$\varepsilon-N$論法を中心に進めていきます。
-https://docs.google.com/forms/d/e/1FAIpQLScWKlr5Q9ctfumYM_BZsII-UX1ToD6e8-OLpqSH8biI9AJ7Gg/viewform?usp=sf_linkk
+
 ## この記事の対象読者
 - 微積分の授業で$\varepsilon$の話が本当に全然分からなかった人
 - 1%くらいは数学者の気持ちを分かってあげたい人
@@ -26,7 +30,7 @@ $\displaystyle\lim_{n\rightarrow\infty}\frac{n}{n+1}=1$であることを証明�
 
 ## 教科書にはよくこう書いてある
 
-**「任意の正数$\varepsilon$に対して、ある正数$N$が存在して、$n>N$であるすべての$n$に対して、$|a_n-\alpha|<\varepsilon$となるときに、数列${a_n}$は$\alpha$に収束するという」**  
+**「任意の正数$\varepsilon$に対して、ある正数$N$が存在して、$n > N$であるすべての$n$に対して、$|a_n-\alpha| < \varepsilon$となるときに、数列${a_n}$は$\alpha$に収束するという」**  
 
 「記号が多すぎて何を言ってるのか分かりません」  
 「ですよね。ここで諦めても特に実生活で困ることはないのですが頑張って読んでいきましょう」
@@ -48,7 +52,7 @@ $|\displaystyle\frac{n}{n+1}-1|<\varepsilon$を日本語訳すると『$\display
 ## 実際に計算してみよう
 「このあたりで実際に計算してみましょう。確認ですが、今回証明したい不等式は  
 
-**$|\displaystyle\frac{n}{n+1}-1|<\varepsilon$**
+**$|\displaystyle\frac{n}{n+1}-1| < \varepsilon$**
 
 です。$\displaystyle\frac{n}{n+1}<1$であること自体は明らかだと思って良いので符号を反転した上で絶対値を外すことができます。」
 
@@ -97,7 +101,7 @@ BさんはAさんよりも$\varepsilon$の値を小さくしたので条件が�
 
 さて、元々は
 
-**"任意の正数$\varepsilon$に対して、ある正数$N$が存在して、$n>N$であるすべての$n$に対して、$|a_n-\alpha|<\varepsilon$となるときに、数列${a_n}$は$\alpha$に収束するという"** 
+**"任意の正数$\varepsilon$に対して、ある正数$N$が存在して、$n > N$であるすべての$n$に対して、$|a_n-\alpha| < \varepsilon$となるときに、数列${a_n}$は$\alpha$に収束するという"** 
 
 という話から始まりました。色々具体例を試した皆さんならこういう書き方に変えてもほぼ同じ意味に見えるのではないのでしょうか。」
 
@@ -113,6 +117,7 @@ $\Leftrightarrow$
 
 - たまに証明内で$\varepsilon$じゃなくて$2\varepsilon$とかになっているやつあるけどそれはいいの？
   - 2倍とかになっても気にしなくて大丈夫です。$n$を大きくしたときにちゃんと収束する予定の値からの距離が$\varepsilon$だろうが$2\varepsilon$だろうがとりあえず維持されてさえいれば問題ないです。
+  
 ## おわりに
 できれば$\varepsilon-\delta$論法についても触れたいと思っていたのですが、$\varepsilon-N$論法でとんでもない長さになってしまったのでこの記事はここで終わりです。  
 ただ、
