@@ -76,7 +76,7 @@ $\displaystyle f( x) =0$ の場合、$\displaystyle f'( x) \ =\ 0\ \neq f( x)$ �
 
 
 
-解法の基本は、$\displaystyle (\log \ \vert f\vert) '=f'/f$ を利用することです。
+解法の基本は、$\displaystyle (\log \ \vert f\vert) ^{\prime}=f'/f$ を利用することです。
 
 
 
