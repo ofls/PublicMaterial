@@ -76,7 +76,7 @@ $\displaystyle f( x) =0$ の場合、$\displaystyle f'( x) \ =\ 0\ \neq f( x)$ �
 
 
 
-解法の基本は、$\displaystyle (\log \ |f|) '=f'/f$ を利用することです。
+解法の基本は、$\displaystyle (\log \ \vert f\vert) '=f'/f$ を利用することです。
 
 
 
@@ -86,7 +86,7 @@ $\displaystyle f'+2f=0$ を解け。
 
 $\displaystyle f( x) =0$ はこの微分方程式の解（特殊解）ですが、それ以外にも特殊解があるかもしれないので、一旦 $\displaystyle f( x) \neq 0$ とします。このとき式を整理すると $\displaystyle f'/f=-2$ となります。
 
-両辺を$\displaystyle x$で積分すると $\displaystyle \log \ |f|=-2x+C$ （ただし$\displaystyle C$は任意定数）ですので、対数の性質から $\displaystyle |f( x) |=e^{-2x+C} =e^{-2x} e^{C}$ となります。絶対値を外すと、$\displaystyle f( x) =\pm e^{-2x} e^{C} =\pm e^{C} e^{-2x}$ ですが $\displaystyle C$が定数である以上 $\displaystyle \pm e^{C}$ も定数ですので改めて$\displaystyle A$とおくと、$\displaystyle f( x) =Ae^{-2x}$となり、これは微分方程式 $\displaystyle f'+2f=0$ を満たします。また、$\displaystyle A=0$ とすれば最初に見つけた特殊解 $\displaystyle f( x) =0$ も含めることができるので $\displaystyle f( x) =Ae^{-2x}$ （$\displaystyle A$は任意定数）は微分方程式 $\displaystyle f'+2f=0$ の一般解となります。
+両辺を$\displaystyle x$で積分すると $\displaystyle \log \ \vert f\vert =-2x+C$ （ただし$\displaystyle C$は任意定数）ですので、対数の性質から $\displaystyle \vert f( x) \vert=e^{-2x+C} =e^{-2x} e^{C}$ となります。絶対値を外すと、$\displaystyle f( x) =\pm e^{-2x} e^{C} =\pm e^{C} e^{-2x}$ ですが $\displaystyle C$が定数である以上 $\displaystyle \pm e^{C}$ も定数ですので改めて$\displaystyle A$とおくと、$\displaystyle f( x) =Ae^{-2x}$となり、これは微分方程式 $\displaystyle f'+2f=0$ を満たします。また、$\displaystyle A=0$ とすれば最初に見つけた特殊解 $\displaystyle f( x) =0$ も含めることができるので $\displaystyle f( x) =Ae^{-2x}$ （$\displaystyle A$は任意定数）は微分方程式 $\displaystyle f'+2f=0$ の一般解となります。
 
 
 
