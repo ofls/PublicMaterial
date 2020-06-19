@@ -322,13 +322,13 @@ v_{1} & v_{2}
 \overrightarrow{f_{1}} & \overrightarrow{f_{2}}
 \end{pmatrix}$の行列式が0でなければ、2つのベクトル$\displaystyle \overrightarrow{f_{1}} ,\overrightarrow{f_{2}}$、あるいはその第1要素である関数$\displaystyle f_{1} ,f_{2}$は線形独立である、ということが成り立ちます。
 
-- 関数での線形独立の定義は、「ある区間上の任意の$\displaystyle x$について恒等的に $\displaystyle c_{1} f_{1} +c_{2} f_{2} =0$ となるスカラーが$\displaystyle c_{1} =c_{2} =0$しかない」です。ここで$\displaystyle f_{1} ,f_{2}$が微分可能だとすると $\displaystyle c_{1} f'_{1} +c_{2} f'_{2} =0$ を追加して$\displaystyle c_{1} ,c_{2}$について調べることができます。つまり2つの式をまとめて行列ベクトル表記にすることで$\displaystyle \begin{pmatrix}
-  f_{1} & f_{2}\\
-  f'_{1} & f'_{2}
+- 関数での線形独立の定義は、「ある区間上の任意の$\displaystyle x$について恒等的に $\displaystyle c_{1} f_{1} +c_{2} f_{2} =0$ となるスカラーが$\displaystyle c_{1} =c_{2} =0$しかない」です。ここで$\displaystyle f_{1} ,f_{2}$が微分可能だとすると $\displaystyle c _ {1} f' _ {1} +c _ {2} f' _ {2} =0$ を追加して$\displaystyle c _ {1} ,c _ {2}$について調べることができます。つまり2つの式をまとめて行列ベクトル表記にすることで$\displaystyle \begin{pmatrix}
+  f _ {1} & f _ {2}\\
+  f' _ {1} & f' _ {2}
   \end{pmatrix}\begin{pmatrix}
-  c_{1}\\
-  c_{2}
-  \end{pmatrix} =0$という連立方程式が出てきますが、もしこの行列に逆行列が存在する（＝行列式が0ではない）ならば$\displaystyle c_{1} =c_{2} =0$となり、$\displaystyle f_{1} ,f_{2}$は線形独立であることが分かります。
+  c _ {1}\\
+  c _ {2}
+  \end{pmatrix} =0$という連立方程式が出てきますが、もしこの行列に逆行列が存在する（＝行列式が0ではない）ならば$\displaystyle c _ {1} =c _ {2} =0$となり、$\displaystyle f _ {1} ,f _ {2}$は線形独立であることが分かります。
 
 
 
