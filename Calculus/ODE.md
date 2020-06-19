@@ -339,9 +339,9 @@ v_{1} & v_{2}
   \end{pmatrix}$の行列式は$\displaystyle x$の関数になるため、$\displaystyle W( x)$と書くことにします。$\displaystyle W( x_{0}) =\begin{vmatrix}
   \overrightarrow{f_{1}}( x_{0}) & \overrightarrow{f_{2}}( x_{0})
   \end{vmatrix}$は、前提条件より0ではありません。ではここで実際に$\displaystyle W( x)$を書き下してみると$\displaystyle W( x) =\begin{vmatrix}
-  f_{1} & f_{2}\\
-  f'_{1} & f'_{2}
-  \end{vmatrix} =f_{1} f'_{2} -f'_{1} f_{2}$となります。$\displaystyle x$の変化に伴う行列式の変化を見たいので$\displaystyle x$で微分すると、$\displaystyle W'( x) =( f'_{1} f'_{2} +f_{1} f''_{2}) -( f''_{1} f_{2} +f'_{1} f'_{2}) =f_{1} f''_{2} -f''_{1} f_{2}$となります。ここで、$\displaystyle f_{1} ,f_{2}$が$\displaystyle f''+af'+bf=0$の解だったことを思い出すと、$\displaystyle W'( x) =f_{1}( -af'_{2} -bf_{2}) -( -af'_{1} -bf_{1}) f_{2} =-a( f_{1} f'_{2} -f'_{1} f_{2}) =-aW( x)$と変形することができます。$\displaystyle a\neq 0$であれば、これは1階の微分方程式ですので解くことができ、一般解は$\displaystyle W( x) =Ce^{-ax}$です。前提条件より$\displaystyle W( x_{0}) \neq 0$ですので、$\displaystyle C\neq 0$であり、結局$\displaystyle W( x) \neq 0$となります。また、$\displaystyle a=0$であれば$\displaystyle W'( x) =0$ということになりますが、これは定数関数$\displaystyle W( x) =C$ということであり、また、前提条件より$\displaystyle C=W( x_{0}) \neq 0$になります。いずれの場合も$\displaystyle W( x) \neq 0$であり、$\displaystyle \overrightarrow{f_{1}} ,\overrightarrow{f_{2}}$が線形独立であることが示されました。
+  f _ {1} & f _ {2}\\
+  f' _ {1} & f' _ {2}
+  \end{vmatrix} =f _ {1} f' _ {2} -f' _ {1} f _ {2}$となります。$\displaystyle x$の変化に伴う行列式の変化を見たいので$\displaystyle x$で微分すると、$\displaystyle W'( x) =( f' _ {1} f' _ {2} +f _ {1} f'' _ {2}) -( f'' _ {1} f _ {2} +f' _ {1} f' _ {2}) =f _ {1} f'' _ {2} -f'' _ {1} f _ {2}$となります。ここで、$\displaystyle f _ {1} ,f _ {2}$が$\displaystyle f''+af'+bf=0$の解だったことを思い出すと、$\displaystyle W'( x) =f_{1}( -af'_{2} -bf_{2}) -( -af'_{1} -bf_{1}) f_{2} =-a( f_{1} f'_{2} -f'_{1} f_{2}) =-aW( x)$と変形することができます。$\displaystyle a\neq 0$であれば、これは1階の微分方程式ですので解くことができ、一般解は$\displaystyle W( x) =Ce^{-ax}$です。前提条件より$\displaystyle W( x_{0}) \neq 0$ですので、$\displaystyle C\neq 0$であり、結局$\displaystyle W( x) \neq 0$となります。また、$\displaystyle a=0$であれば$\displaystyle W'( x) =0$ということになりますが、これは定数関数$\displaystyle W( x) =C$ということであり、また、前提条件より$\displaystyle C=W( x_{0}) \neq 0$になります。いずれの場合も$\displaystyle W( x) \neq 0$であり、$\displaystyle \overrightarrow{f_{1}} ,\overrightarrow{f_{2}}$が線形独立であることが示されました。
 
 
 
