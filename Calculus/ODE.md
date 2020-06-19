@@ -207,7 +207,7 @@ $\displaystyle f''-5f'+6f=\sin x$ を解け。
 上記のステップ通りに解いて行きましょう。
 
 
-1. 対応する同次微分方程式は$\displaystyle f''-5f'+6f=0$です。これは例3と同じ微分方程式なので解$\displaystyle f_{c}$は$\displaystyle f_{c}( x) =Ae^{2x} +Be^{3x}$となります。
+1. 対応する同次微分方程式は$\displaystyle f^{\prime\prime}-5f'+6f=0$です。これは例3と同じ微分方程式なので解$\displaystyle f_{c}$は$\displaystyle f_{c}( x) =Ae^{2x} +Be^{3x}$となります。
 2. 特殊解を何でもいいのでとにかく1つ見つけます。定数項が三角関数の形をしているので、とりあえず$\displaystyle f_{p}( x) =C\cos x+D\sin x$ を代入してみましょう。すると非同次微分方程式は$\displaystyle ( -C\cos x-D\sin x) -5( -C\sin x+D\cos x) +6( C\cos x+D\sin x) =\sin x$という形になるため、式の左辺を整理すると$\displaystyle ( 5C-5D)\cos x+( 5C+5D)\sin x=\sin x$となります。ここで左辺と右辺の係数比較を行い、連立方程式を解くと$\displaystyle C=1/10,D=1/10$です。よって、この非同次微分方程式の特殊解の1つは$\displaystyle f_{p}( x) =\frac{1}{10}\cos x+\frac{1}{10}\sin x$であることが分かりました。
 3. ステップ1,2で求めた解の和が、そのまま一般解となります。したがって、$\displaystyle f( x) =f_{c}( x) +f_{p}( x) =Ae^{2x} +Be^{3x} +\frac{1}{10}\cos x+\frac{1}{10}\sin x$ が、この非同次微分方程式の一般解です。
 
