@@ -128,7 +128,7 @@ $\displaystyle f'+2f=x$ を解け。
 
 ## 2階線形定数係数同次微分方程式の解法
 
-「2階」とは、微分方程式に登場する導関数が最高でも第2次導関数ということです。つまり$\displaystyle f''+af'+bf=0$ の形で書かれた微分方程式を 2階線形定数係数同次微分方程式と言います。
+「2階」とは、微分方程式に登場する導関数が最高でも第2次導関数ということです。つまり$\displaystyle f {\prime\prime}+af'+bf=0$ の形で書かれた微分方程式を 2階線形定数係数同次微分方程式と言います。
 
 
 
@@ -162,7 +162,7 @@ $\displaystyle f'+2f=x$ を解け。
 
 ### 例3. 
 
-$\displaystyle f''-5f'+6f=0$ を解け。
+$\displaystyle f {\prime\prime}-5f'+6f=0$ を解け。
 
 与えられた微分方程式に対応する特性方程式は$\displaystyle \lambda ^{2} -5\lambda +6=0$です。これを解くと$\displaystyle \lambda =2,3$となります。これは異なる2つの実数解であるため、この微分方程式の一般解は$\displaystyle f( x) =Ae^{2x} +Be^{3x}$です。
 
@@ -170,7 +170,7 @@ $\displaystyle f''-5f'+6f=0$ を解け。
 
 ###  例4. 
 
-$\displaystyle f''-2f'+1=0$ を解け。
+$\displaystyle f {\prime\prime}-2f'+1=0$ を解け。
 
 与えられた微分方程式に対応する特性方程式は$\displaystyle \lambda ^{2} -2\lambda +1=0$です。これを解くと$\displaystyle \lambda =1$となります。これは重解であるため、この微分方程式の一般解は$\displaystyle f( x) =Ae^{x} +Bxe^{x}$です。
 
@@ -178,7 +178,7 @@ $\displaystyle f''-2f'+1=0$ を解け。
 
 ### 例5. 
 
-$\displaystyle f''+\omega ^{2} f=0$ を解け。ただし$\displaystyle \omega $は実定数とする。
+$\displaystyle f {\prime\prime}+\omega ^{2} f=0$ を解け。ただし$\displaystyle \omega $は実定数とする。
 
 与えられた微分方程式に対応する特性方程式は$\displaystyle \lambda ^{2} +\omega ^{2} =0$です。これを解くと$\displaystyle \lambda =\pm i\omega $となります。これは共役な複素解であるため、$\displaystyle \lambda _{+} =i\omega ,\lambda _{-} =-i\omega $とおくと、この微分方程式の一般解は$\displaystyle f( x) =Ae^{i\omega x} +Be^{-i\omega x}$です。また、$\displaystyle \lambda _{+} =p+iq=i\omega $から$\displaystyle p=0,q=\omega $となるため、$\displaystyle f( x) =C\cos \omega x+D\sin \omega x$ と一般解を記述することもできます。
 
@@ -186,12 +186,12 @@ $\displaystyle f''+\omega ^{2} f=0$ を解け。ただし$\displaystyle \omega $
 
 ## 2階線形定数係数 非 同次微分方程式の解法
 
-$\displaystyle f''+af'+bf=c$ の形で書かれた微分方程式を 2階線形定数係数非同次微分方程式と言います。
+$\displaystyle f {\prime\prime}+af'+bf=c$ の形で書かれた微分方程式を 2階線形定数係数非同次微分方程式と言います。
 
 
 
 1階の場合と解法は同様に、以下の3ステップに分かれます。
-1. 対応する同次微分方程式 $\displaystyle f''+af'+bf=0$ の解$\displaystyle f_{c}$を求める。
+1. 対応する同次微分方程式 $\displaystyle f {\prime\prime}+af'+bf=0$ の解$\displaystyle f_{c}$を求める。
 2. 非同次微分方程式の特殊解$\displaystyle f_{p}$を1つ求める。
 3. $\displaystyle f=f_{c} +f_{p}$が非同次微分方程式の一般解となる。
          
@@ -226,11 +226,11 @@ $\displaystyle f^{\prime\prime}-5f'+6f=\sin x$ を解け。
 
 
 
-そこでこの節では、線形同次微分方程式の解からなる集合（＝解空間）を考え、その性質を見てみたいと思います。また、パターン分類として基本となる2階の線形定数係数同次微分方程式を対象とします。つまり$\displaystyle f''+af'+bf=0$ の形をした微分方程式を考えます。
+そこでこの節では、線形同次微分方程式の解からなる集合（＝解空間）を考え、その性質を見てみたいと思います。また、パターン分類として基本となる2階の線形定数係数同次微分方程式を対象とします。つまり$\displaystyle f {\prime\prime}+af'+bf=0$ の形をした微分方程式を考えます。
 
 
 
-- $\displaystyle f_{1} ,f_{2}$が微分方程式$\displaystyle f''+af'+bf=0$ の解であれば$\displaystyle f=c_{1} f_{1} +c_{2} f_{2}$も解である。
+- $\displaystyle f_{1} ,f_{2}$が微分方程式$\displaystyle f {\prime\prime}+af'+bf=0$ の解であれば$\displaystyle f=c_{1} f_{1} +c_{2} f_{2}$も解である。
 
 これは、解の集合から適当に2つ関数を選んできて、その和やスカラー倍を考えても解になるということを示しています。微分の線形性から成り立つことは証明できるので、チャレンジしてみてください。
 
@@ -278,12 +278,12 @@ $\displaystyle f^{\prime\prime}-5f'+6f=\sin x$ を解け。
 
 
 
-繰り返しになりますが、今考えている2階線形定数係数同次微分方程式とは、$\displaystyle f''+af'+bf=0$ という形の微分方程式です。実はこの微分方程式は、$\displaystyle \vec{f} =\begin{pmatrix}
+繰り返しになりますが、今考えている2階線形定数係数同次微分方程式とは、$\displaystyle f {\prime\prime}+af'+bf=0$ という形の微分方程式です。実はこの微分方程式は、$\displaystyle \vec{f} =\begin{pmatrix}
 f\\
 f'
 \end{pmatrix}$とおくと$\displaystyle \vec{f} '=\begin{pmatrix}
 f'\\
-f''
+f {\prime\prime}
 \end{pmatrix} =\begin{pmatrix}
 f'\\
 -bf-af'
@@ -341,7 +341,7 @@ v_{1} & v_{2}
   \end{vmatrix}$は、前提条件より0ではありません。ではここで実際に$\displaystyle W( x)$を書き下してみると$\displaystyle W( x) =\begin{vmatrix}
   f _ {1} & f _ {2}\\
   f' _ {1} & f' _ {2}
-  \end{vmatrix} =f _ {1} f' _ {2} -f' _ {1} f _ {2}$となります。$\displaystyle x$の変化に伴う行列式の変化を見たいので$\displaystyle x$で微分すると、$\displaystyle W'( x) =( f' _ {1} f' _ {2} +f _ {1} f'' _ {2}) -( f'' _ {1} f _ {2} +f' _ {1} f' _ {2}) =f _ {1} f'' _ {2} -f'' _ {1} f _ {2}$となります。ここで、$\displaystyle f _ {1} ,f _ {2}$が$\displaystyle f''+af'+bf=0$の解だったことを思い出すと、$\displaystyle W'( x) =f _ {1}( -af' _ {2} -bf _ {2}) -( -af' _ {1} -bf _ {1}) f _ {2} =-a( f_{1} f' _ {2} -f' _ {1} f_{2}) =-aW( x)$と変形することができます。$\displaystyle a\neq 0$であれば、これは1階の微分方程式ですので解くことができ、一般解は$\displaystyle W( x) =Ce^{-ax}$です。前提条件より$\displaystyle W( x_{0}) \neq 0$ですので、$\displaystyle C\neq 0$であり、結局$\displaystyle W( x) \neq 0$となります。また、$\displaystyle a=0$であれば$\displaystyle W'( x) =0$ということになりますが、これは定数関数$\displaystyle W( x) =C$ということであり、また、前提条件より$\displaystyle C=W( x_{0}) \neq 0$になります。いずれの場合も$\displaystyle W( x) \neq 0$であり、$\displaystyle \overrightarrow{f_{1}} ,\overrightarrow{f_{2}}$が線形独立であることが示されました。
+  \end{vmatrix} =f _ {1} f' _ {2} -f' _ {1} f _ {2}$となります。$\displaystyle x$の変化に伴う行列式の変化を見たいので$\displaystyle x$で微分すると、$\displaystyle W'( x) =( f' _ {1} f' _ {2} +f _ {1} f {\prime\prime} _ {2}) -( f {\prime\prime} _ {1} f _ {2} +f' _ {1} f' _ {2}) =f _ {1} f {\prime\prime} _ {2} -f {\prime\prime} _ {1} f _ {2}$となります。ここで、$\displaystyle f _ {1} ,f _ {2}$が$\displaystyle f {\prime\prime}+af'+bf=0$の解だったことを思い出すと、$\displaystyle W'( x) =f _ {1}( -af' _ {2} -bf _ {2}) -( -af' _ {1} -bf _ {1}) f _ {2} =-a( f_{1} f' _ {2} -f' _ {1} f_{2}) =-aW( x)$と変形することができます。$\displaystyle a\neq 0$であれば、これは1階の微分方程式ですので解くことができ、一般解は$\displaystyle W( x) =Ce^{-ax}$です。前提条件より$\displaystyle W( x_{0}) \neq 0$ですので、$\displaystyle C\neq 0$であり、結局$\displaystyle W( x) \neq 0$となります。また、$\displaystyle a=0$であれば$\displaystyle W'( x) =0$ということになりますが、これは定数関数$\displaystyle W( x) =C$ということであり、また、前提条件より$\displaystyle C=W( x_{0}) \neq 0$になります。いずれの場合も$\displaystyle W( x) \neq 0$であり、$\displaystyle \overrightarrow{f_{1}} ,\overrightarrow{f_{2}}$が線形独立であることが示されました。
 
 
 
