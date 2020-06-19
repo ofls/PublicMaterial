@@ -215,7 +215,7 @@ $\displaystyle f^{\prime\prime}-5f'+6f=\sin x$ を解け。
 
 ## [付録A] 線形定数係数 非同次微分方程式の一般解について
 
-1階でも2階でも議論は変わらないため1階の線形定数係数非同次微分方程式を考えます。つまり$\displaystyle f'+af=b$ の形をした微分方程式を考えます。ここで$\displaystyle f$と$\displaystyle f_{p}$がそれぞれ非同次微分方程式の異なる特殊解であるとします。つまり$\displaystyle f'+af=b $ も$\displaystyle f^{\prime}_{p} +af_{p} =b$ も成り立っているという状況です。このとき関数の差$\displaystyle f_{c} =f-f_{p}$に対し、$\displaystyle f'_{c} +af_{c}$を考えると、$\displaystyle f'_{c} +af_{c} =( f-f_{p}) '+a( f-f_{p}) =( f'+af) -( f'_{p} +af'_{p}) =b-b=0$ となります。これは$\displaystyle f_{c}$が同次微分方程式$\displaystyle f'+af=0$ の解の1つであることを示しています。またこの事実は、非同次微分方程式の特殊解$\displaystyle f_{p}$に対し、対応する同次微分方程式の解$\displaystyle f_{c}$を加えても、非同次微分方程式の解に変わりないということでもあります。
+1階でも2階でも議論は変わらないため1階の線形定数係数非同次微分方程式を考えます。つまり$\displaystyle f'+af=b$ の形をした微分方程式を考えます。ここで$\displaystyle f$と$\displaystyle f_{p}$がそれぞれ非同次微分方程式の異なる特殊解であるとします。つまり$\displaystyle f'+af=b $ も$\displaystyle f^{\prime}_{p}$ $+af_{p} =b$ も成り立っているという状況です。このとき関数の差$\displaystyle f_{c} =f-f_{p}$に対し、$\displaystyle f'_{c} +af_{c}$を考えると、$\displaystyle f'_{c} +af_{c} =( f-f_{p}) '+a( f-f_{p}) =( f'+af) -( f'_{p} +af'_{p}) =b-b=0$ となります。これは$\displaystyle f_{c}$が同次微分方程式$\displaystyle f'+af=0$ の解の1つであることを示しています。またこの事実は、非同次微分方程式の特殊解$\displaystyle f_{p}$に対し、対応する同次微分方程式の解$\displaystyle f_{c}$を加えても、非同次微分方程式の解に変わりないということでもあります。
 
 したがって非同次微分方程式の一般解$\displaystyle f$は、対応する同次方程式の一般解$\displaystyle f_{c}$を求め、そこに非同次方程式の特殊解$\displaystyle f_{p}$を加えることで表現することができます。
 
