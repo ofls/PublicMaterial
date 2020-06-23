@@ -33,7 +33,7 @@ $\displaystyle f( x) =e^{x}$ の場合、$\displaystyle f'( x) \ =\ e^{x} =f( x)
 
 $\displaystyle f( x) =2e^{x}$ の場合、$\displaystyle f'( x) \ =\ 2e^{x} =f( x)$ ですので $\displaystyle f( x) =2e^{x}$ は $\displaystyle f'=f$ を満たします。
 
-$\displaystyle f( x) =0$ の場合、$\displaystyle f'( x) \ =\ 0\ \neq f( x)$ ですので $\displaystyle f( x) =0$ は $\displaystyle f'=f$ を満たします。
+$\displaystyle f( x) =0$ の場合、$\displaystyle f'( x) \ =\ 0\ = f( x)$ ですので $\displaystyle f( x) =0$ は $\displaystyle f'=f$ を満たします。
 
 
 
@@ -111,7 +111,7 @@ $\displaystyle f( x) =0$ はこの微分方程式の解（特殊解）ですが�
 3. $\displaystyle f=f_{c} +f_{p}$が非同次微分方程式の一般解となる。
   
 
-どうしてこの解法で良いのか興味がある人は巻末の付録を参考にしてください。
+どうしてこの解法で良いのか興味がある人は巻末の[付録A](# [付録A] 線形定数係数 非同次微分方程式の一般解について)を参考にしてください。
 
 
 ### 例2
@@ -120,7 +120,7 @@ $\displaystyle f'+2f=x$ を解け。
 
 
 上記のステップ通りに解いて行きましょう。
-1. 対応する同次微分方程式は$\displaystyle f'+2f=0$です。これは例1と同じ微分方程式なので解$\displaystyle f_{c}$は$\displaystyle f_{c}( x) =Ae^{-2x}$となります。
+1. 対応する同次微分方程式は$\displaystyle f'+2f=0$です。これは[例1](#例1)と同じ微分方程式なので解$\displaystyle f_{c}$は$\displaystyle f_{c}( x) =Ae^{-2x}$となります。
 2. 特殊解を何でもいいのでとにかく1つ見つけます。定数項が多項式の形をしているので、とりあえず$\displaystyle f_{p}( x) =Bx+C$を代入してみましょう。すると非同次微分方程式は$\displaystyle B+2( Bx+C) =x$という形になるため、式の左辺を整理すると$\displaystyle 2Bx+( B+C) =x$となります。ここで左辺と右辺の係数比較を行い、連立方程式を解くと$\displaystyle B=1/2,C=-1/2$です。よって、この非同次微分方程式の特殊解の1つは$\displaystyle f_{p}( x) =\frac{1}{2} x-\frac{1}{2}$であることが分かりました。
 3. ステップ1,2で求めた解の和が、そのまま一般解となります。したがって、$\displaystyle f( x) =f_{c}( x) +f_{p}( x) =Ae^{-2x} +\frac{1}{2} x-\frac{1}{2}$が、この非同次微分方程式の一般解です。
 
@@ -151,7 +151,7 @@ $\displaystyle f'+2f=x$ を解け。
 
     $\displaystyle f( x) =Ae^{\lambda _{+} x} +Be^{\lambda _{-} x}$ が微分方程式の一般解になります。
 
-    ここで $\displaystyle \lambda _{+} =p+iq,\lambda _{-=} p-iq$ とすると、オイラーの等式 $\displaystyle e^{ix} =\cos x+i\sin x$ より$\displaystyle f( x) =Ae^{\lambda _{+} x} +Be^{\lambda _{-} x} =A\left( e^{px} e^{iqx}\right) +B\left( e^{px} e^{-iqx}\right) =( A+B) e^{px}\cos qx+i( A-B) e^{px}\sin qx$と変形することができます。$\displaystyle A,B$が任意定数であることから$\displaystyle C=A+B,D=i( A-B)$とおけば$\displaystyle C,D$も任意定数であるため、共役な複素解を持つ場合は、その実部と虚部を用いて$\displaystyle f( x) =Ce^{px}\cos qx+De^{px}\sin qx$と一般解を書く場合もあります。
+    ここで $\displaystyle \lambda _{+} =p+iq,\lambda _{-} =p-iq$ とすると、オイラーの等式 $\displaystyle e^{ix} =\cos x+i\sin x$ より$\displaystyle f( x) =Ae^{\lambda _{+} x} +Be^{\lambda _{-} x} =A\left( e^{px} e^{iqx}\right) +B\left( e^{px} e^{-iqx}\right) =( A+B) e^{px}\cos qx+i( A-B) e^{px}\sin qx$と変形することができます。$\displaystyle A,B$が任意定数であることから$\displaystyle C=A+B,D=i( A-B)$とおけば$\displaystyle C,D$も任意定数であるため、共役な複素解を持つ場合は、その実部と虚部を用いて$\displaystyle f( x) =Ce^{px}\cos qx+De^{px}\sin qx$と一般解を書く場合もあります。
     
 
 つまり、2階線形定数係数同次微分方程式を解くとは、その特性方程式の解を求め、上の3パターンのうちのいずれかに当てはめるということです。
@@ -278,26 +278,13 @@ $\displaystyle f^{\prime\prime}-5f'+6f=\sin x$ を解け。
 
 
 
-繰り返しになりますが、今考えている2階線形定数係数同次微分方程式とは、$\displaystyle f ^{\prime\prime}+af'+bf=0$ という形の微分方程式です。実はこの微分方程式は、$\displaystyle \vec{f} =\begin{pmatrix}
-f\\
-f'
-\end{pmatrix}$とおくと$\displaystyle \vec{f} '=\begin{pmatrix}
-f'\\
-f ^{\prime\prime}
-\end{pmatrix} =\begin{pmatrix}
-f'\\
--bf-af'
-\end{pmatrix} =\begin{pmatrix}
-0 & 1\\
--b & -a
-\end{pmatrix}\begin{pmatrix}
-f\\
-f'
-\end{pmatrix} =\begin{pmatrix}
-0 & 1\\
--b & -a
-\end{pmatrix}\vec{f}$という行列ベクトル積の連立微分方程式と考えることができます。見慣れないかもしれませんが、この関数を要素に持つベクトル$\displaystyle \vec{f}$は、パラメータ$\displaystyle x_{0}$を決めれば平面上の1点$\displaystyle \vec{f}( x_{0}) =\begin{pmatrix}
-f( x_{0})\\
+繰り返しになりますが、今考えている2階線形定数係数同次微分方程式とは、$\displaystyle f ^{\prime\prime}+af'+bf=0$ という形の微分方程式です。実はこの微分方程式は、$\displaystyle \vec{f} = \begin{pmatrix} f \ f' \end{pmatrix}$とおくと$\displaystyle \vec{f} '=
+\begin{pmatrix} f' \ f ^{\prime\prime} \end{pmatrix} =
+\begin{pmatrix} f' \ -bf-af' \end{pmatrix} =
+\begin{pmatrix} 0 & 1 \ -b & -a \end{pmatrix}
+\begin{pmatrix} f \ f' \end{pmatrix} =
+\begin{pmatrix} 0 & 1 \ -b & -a \end{pmatrix}\vec{f}$という行列ベクトル積の連立微分方程式と考えることができます。見慣れないかもしれませんが、この関数を要素に持つベクトル$\displaystyle \vec{f}$は、パラメータ$\displaystyle x_{0}$を決めれば平面上の1点$\displaystyle \vec{f}( x_{0}) =\begin{pmatrix}
+f( x_{0}) \ 
 f'( x_{0})
 \end{pmatrix}$が決まるベクトルです。当然、連立微分方程式の解となるような$\displaystyle \vec{f}$は、パラメータ$\displaystyle x$の関数$\displaystyle \vec{f} :\mathbb{R}\rightarrow \mathbb{R}^{2}$であり、これはパラメータ表示された曲線と同一視することが可能です。
 
@@ -316,17 +303,17 @@ v_{1} & v_{2}
 
 
 実は上記のベクトル$\displaystyle \vec{f}$でも似たようなことが言えて、連立微分方程式$\displaystyle \vec{f} '=\begin{pmatrix}
-0 & 1\\
+0 & 1 \ 
 -b & -a
 \end{pmatrix}\vec{f}$の解となるようなベクトル$\displaystyle \overrightarrow{f_{1}} ,\overrightarrow{f_{2}}$に対して、それらを横に並べた行列$\displaystyle \begin{pmatrix}
 \overrightarrow{f_{1}} & \overrightarrow{f_{2}}
 \end{pmatrix}$の行列式が0でなければ、2つのベクトル$\displaystyle \overrightarrow{f_{1}} ,\overrightarrow{f_{2}}$、あるいはその第1要素である関数$\displaystyle f_{1} ,f_{2}$は線形独立である、ということが成り立ちます。
 
 - 関数での線形独立の定義は、「ある区間上の任意の$\displaystyle x$について恒等的に $\displaystyle c_{1} f_{1} +c_{2} f_{2} =0$ となるスカラーが$\displaystyle c_{1} =c_{2} =0$しかない」です。ここで$\displaystyle f_{1} ,f_{2}$が微分可能だとすると $\displaystyle c _ {1} f' _ {1} +c _ {2} f' _ {2} =0$ を追加して$\displaystyle c _ {1} ,c _ {2}$について調べることができます。つまり2つの式をまとめて行列ベクトル表記にすることで$\displaystyle \begin{pmatrix}
-  f _ {1} & f _ {2}\\
+  f _ {1} & f _ {2} \ 
   f' _ {1} & f' _ {2}
   \end{pmatrix}\begin{pmatrix}
-  c _ {1}\\
+  c _ {1} \ 
   c _ {2}
   \end{pmatrix} =0$という連立方程式が出てきますが、もしこの行列に逆行列が存在する（＝行列式が0ではない）ならば$\displaystyle c _ {1} =c _ {2} =0$となり、$\displaystyle f _ {1} ,f _ {2}$は線形独立であることが分かります。
 
@@ -339,7 +326,7 @@ v_{1} & v_{2}
   \end{pmatrix}$の行列式は$\displaystyle x$の関数になるため、$\displaystyle W( x)$と書くことにします。$\displaystyle W( x_{0}) =\begin{vmatrix}
   \overrightarrow{f_{1}}( x_{0}) & \overrightarrow{f_{2}}( x_{0})
   \end{vmatrix}$は、前提条件より0ではありません。ではここで実際に$\displaystyle W( x)$を書き下してみると$\displaystyle W( x) =\begin{vmatrix}
-  f _ {1} & f _ {2}\\
+  f _ {1} & f _ {2} \ 
   f' _ {1} & f' _ {2}
   \end{vmatrix} =f _ {1} f' _ {2} -f' _ {1} f _ {2}$となります。$\displaystyle x$の変化に伴う行列式の変化を見たいので$\displaystyle x$で微分すると、$\displaystyle W'( x) =( f' _ {1} f' _ {2} +f _ {1} f ^{\prime\prime} _ {2}) -( f ^{\prime\prime} _ {1} f _ {2} +f' _ {1} f' _ {2}) =f _ {1} f ^{\prime\prime} _ {2} -f ^{\prime\prime} _ {1} f _ {2}$となります。ここで、$\displaystyle f _ {1} ,f _ {2}$が$\displaystyle f ^{\prime\prime}+af'+bf=0$の解だったことを思い出すと、$\displaystyle W'( x) =f _ {1}( -af' _ {2} -bf _ {2}) -( -af' _ {1} -bf _ {1}) f _ {2} =-a( f_{1} f' _ {2} -f' _ {1} f_{2}) =-aW( x)$と変形することができます。$\displaystyle a\neq 0$であれば、これは1階の微分方程式ですので解くことができ、一般解は$\displaystyle W( x) =Ce^{-ax}$です。前提条件より$\displaystyle W( x_{0}) \neq 0$ですので、$\displaystyle C\neq 0$であり、結局$\displaystyle W( x) \neq 0$となります。また、$\displaystyle a=0$であれば$\displaystyle W'( x) =0$ということになりますが、これは定数関数$\displaystyle W( x) =C$ということであり、また、前提条件より$\displaystyle C=W( x_{0}) \neq 0$になります。いずれの場合も$\displaystyle W( x) \neq 0$であり、$\displaystyle \overrightarrow{f_{1}} ,\overrightarrow{f_{2}}$が線形独立であることが示されました。
 
@@ -351,17 +338,17 @@ v_{1} & v_{2}
 
 1. [付録B]で示したように解空間は、線形空間になります。
 2. $\displaystyle \mathbb{R}^{2}$の標準基底$\displaystyle e_{1} =\begin{pmatrix}
-      1\\
+      1 \ 
       0
       \end{pmatrix} ,e_{2} =\begin{pmatrix}
-      0\\
+      0 \ 
       1
       \end{pmatrix}$に対し（もちろんこれらは線形独立）、連立微分方程式$\displaystyle \vec{f} '=\begin{pmatrix}
-      0 & 1\\
+      0 & 1 \ 
       -b & -a
       \end{pmatrix}\vec{f}$の解を、条件 $\displaystyle \overrightarrow{f_{1}}( x_{0}) =e_{1} ,\overrightarrow{f_{2}}( x_{0}) =e_{2}$ を満たすように選びます。このとき、上記の議論から$\displaystyle \overrightarrow{f_{1}} ,\overrightarrow{f_{2}}$は線形独立です。
 3.  $\displaystyle \vec{f} =c_{1}\overrightarrow{f_{1}} +c_{2}\overrightarrow{f_{2}}$とおくと、$\displaystyle \vec{f}$は解空間の元であり、任意の条件$\displaystyle \vec{f}( x_{0}) =\begin{pmatrix}
-      c_{1}\\
+      c_{1} \ 
       c_{2}
       \end{pmatrix}$ を満たす解となります。したがって、$\displaystyle \overrightarrow{f_{1}} ,\overrightarrow{f_{2}}$は基底であり、解空間は2次元線形空間であることが示されました。
 
