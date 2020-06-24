@@ -278,7 +278,7 @@ $\displaystyle f^{\prime\prime}-5f'+6f=\sin x$ を解け。
 
 
 
-繰り返しになりますが、今考えている2階線形定数係数同次微分方程式とは、$\displaystyle f ^{\prime\prime}+af'+bf=0$ という形の微分方程式です。実はこの微分方程式は、$\displaystyle \vec{f} = \begin{pmatrix} f \\ f' \end{pmatrix}$とおくと$\displaystyle \vec{f} '=
+繰り返しになりますが、今考えている2階線形定数係数同次微分方程式とは、$\displaystyle f ^{\prime\prime}+af'+bf=0$ という形の微分方程式です。実はこの微分方程式は、$\displaystyle \vec{f} = \begin{pmatrix} f \\\\ f' \end{pmatrix}$とおくと$\displaystyle \vec{f} '=
 \begin{pmatrix} f' \\ f ^{\prime\prime} \end{pmatrix} =
 \begin{pmatrix} f' \\ -bf-af' \end{pmatrix} =
 \begin{pmatrix} 0 & 1 \\ -b & -a \end{pmatrix}
