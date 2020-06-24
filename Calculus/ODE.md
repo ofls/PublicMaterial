@@ -278,7 +278,7 @@ $\displaystyle f^{\prime\prime}-5f'+6f=\sin x$ を解け。
 
 
 
-繰り返しになりますが、今考えている2階線形定数係数同次微分方程式とは、$\displaystyle f ^{\prime\prime}+af'+bf=0$ という形の微分方程式です。実はこの微分方程式は、$\displaystyle \vec{f} = \begin{pmatrix} f \\\\ f' \end{pmatrix}$とおくと$\displaystyle  \overrightarrow{f^{\prime}}=
+繰り返しになりますが、今考えている2階線形定数係数同次微分方程式とは、$\displaystyle f ^{\prime\prime}+af'+bf=0$ という形の微分方程式です。実はこの微分方程式は、$\displaystyle \vec{f} = \begin{pmatrix} f \\\\ f' \end{pmatrix}$とおくと$\displaystyle \vec{f} '=
 \begin{pmatrix} f' \\\\ f ^{\prime\prime} \end{pmatrix} =
 \begin{pmatrix} f' \\\\ -bf-af' \end{pmatrix} =
 \begin{pmatrix} 0 & 1 \\\\ -b & -a \end{pmatrix}
@@ -302,7 +302,7 @@ v_{1} & v_{2}
 
 
 
-実は上記のベクトル$\displaystyle \vec{f}$でも似たようなことが言えて、連立微分方程式$\displaystyle \overrightarrow{f^{\prime}} =\begin{pmatrix}
+実は上記のベクトル$\displaystyle \vec{f}$でも似たようなことが言えて、連立微分方程式$\displaystyle \vec{f} '=\begin{pmatrix}
 0 & 1 \\\\ 
 -b & -a
 \end{pmatrix}\vec{f}$の解となるようなベクトル$\displaystyle \overrightarrow{f_{1}} ,\overrightarrow{f_{2}}$に対して、それらを横に並べた行列$\displaystyle \begin{pmatrix}
@@ -343,7 +343,7 @@ v_{1} & v_{2}
       \end{pmatrix} ,e_{2} =\begin{pmatrix}
       0 \\\\ 
       1
-      \end{pmatrix}$に対し（もちろんこれらは線形独立）、連立微分方程式$\displaystyle \overrightarrow{f^{\prime}} =\begin{pmatrix}
+      \end{pmatrix}$に対し（もちろんこれらは線形独立）、連立微分方程式$\displaystyle \vec{f} '=\begin{pmatrix}
       0 & 1 \\\\ 
       -b & -a
       \end{pmatrix}\vec{f}$の解を、条件 $\displaystyle \overrightarrow{f_{1}}( x_{0}) =e_{1} ,\overrightarrow{f_{2}}( x_{0}) =e_{2}$ を満たすように選びます。このとき、上記の議論から$\displaystyle \overrightarrow{f_{1}} ,\overrightarrow{f_{2}}$は線形独立です。
