@@ -303,7 +303,7 @@ v_{1} & v_{2}
 
 
 実は上記のベクトル$\displaystyle \vec{f}$でも似たようなことが言えて、連立微分方程式$\displaystyle \vec{f} '=\begin{pmatrix}
-0 & 1 \\\\
+0 & 1 \\\\ 
 -b & -a
 \end{pmatrix}\vec{f}$の解となるようなベクトル$\displaystyle \overrightarrow{f_{1}} ,\overrightarrow{f_{2}}$に対して、それらを横に並べた行列$\displaystyle \begin{pmatrix}
 \overrightarrow{f_{1}} & \overrightarrow{f_{2}}
@@ -338,17 +338,17 @@ v_{1} & v_{2}
 
 1. [付録B](#付録b-2階線形定数係数-同次微分方程式の一般解について)で示したように解空間は、線形空間になります。
 2. $\displaystyle \mathbb{R}^{2}$の標準基底$\displaystyle e_{1} =\begin{pmatrix}
-      1 \\\\
+      1 \\\\ 
       0
       \end{pmatrix} ,e_{2} =\begin{pmatrix}
-      0 \\\\
+      0 \\\\ 
       1
       \end{pmatrix}$に対し（もちろんこれらは線形独立）、連立微分方程式$\displaystyle \vec{f} '=\begin{pmatrix}
-      0 & 1 \\\\
+      0 & 1 \\\\ 
       -b & -a
       \end{pmatrix}\vec{f}$の解を、条件 $\displaystyle \overrightarrow{f_{1}}( x_{0}) =e_{1} ,\overrightarrow{f_{2}}( x_{0}) =e_{2}$ を満たすように選びます。このとき、上記の議論から$\displaystyle \overrightarrow{f_{1}} ,\overrightarrow{f_{2}}$は線形独立です。
 3.  $\displaystyle \vec{f} =c_{1}\overrightarrow{f_{1}} +c_{2}\overrightarrow{f_{2}}$とおくと、$\displaystyle \vec{f}$は解空間の元であり、任意の条件$\displaystyle \vec{f}( x_{0}) =\begin{pmatrix}
-      c_{1} \\\\
+      c_{1} \\\\ 
       c_{2}
       \end{pmatrix}$ を満たす解となります。したがって、$\displaystyle \overrightarrow{f_{1}} ,\overrightarrow{f_{2}}$は基底であり、解空間は2次元線形空間であることが示されました。
 
