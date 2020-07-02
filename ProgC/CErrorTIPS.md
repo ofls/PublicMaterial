@@ -5,6 +5,22 @@
 
 ここでは、そんなエラーの中からおそらく頻出するものをピックアップして載せておきました。エラーとその原因、また対処法をセットで覚えてみてください。
 
+## 目次
+  - [目次](#目次)
+  - [初めに](#初めに)
+    - [実行環境](#実行環境)
+    - [コンパイルエラー凡例](#コンパイルエラー凡例)
+    - [gcc -Wall source.c](#gcc--wall-sourcec)
+  - [No such file or directory](#no-such-file-or-directory)
+  - [expected 足りない何か before 怪しい場所](#expected-足りない何か-before-怪しい場所)
+  - [stray ‘怪しい何か’ in program](#stray-怪しい何か-in-program)
+  - [implicit declaration of function](#implicit-declaration-of-function)
+  - [‘変数名’ undeclared](#変数名-undeclared)
+  - [unknown type name ‘型名’](#unknown-type-name-型名)
+  - [format ‘ラベル’ expects argument of type ‘型名A’, but argument 2 has type ‘型名B’ \[-Wall\]](#format-ラベル-expects-argument-of-type-型名a-but-argument-2-has-type-型名b--wall)
+  - [Segmentation fault](#segmentation-fault)
+  - [お知らせ](#お知らせ)
+
 ## 初めに
 ### 実行環境
 
