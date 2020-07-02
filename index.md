@@ -16,6 +16,7 @@
 
 ## 最近の更新
 <!-- 5件程度記載予定 -->
+- 「C言語エラー集」を公開（2020.7.2）
 - 「微分方程式入門」を公開（2020.6.24）
 - 「圧縮線形代数」を公開 (2020.6.11)
 - 「εについてのお話」を公開 (2020.6.4)
@@ -27,3 +28,6 @@
 ### 微積分
 - [εについてのお話](https://ofls.github.io/PublicMaterial/Calculus/epsilon.html)
 - [微分方程式入門](https://ofls.github.io/PublicMaterial/Calculus/ODE.html)
+
+### プログラミング（C言語）
+- [C言語エラー集](https://ofls.github.io/PublicMaterial/ProgC/CErrorTIPS.html)
