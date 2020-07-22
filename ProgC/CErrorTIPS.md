@@ -19,6 +19,7 @@
   - [unknown type name ‘型名’](#unknown-type-name-型名)
   - [format ‘ラベル’ expects argument of type ‘型名A’, but argument 2 has type ‘型名B’ \[-Wall\]](#format-ラベル-expects-argument-of-type-型名a-but-argument-2-has-type-型名b--wall)
   - [Segmentation fault](#segmentation-fault)
+  - [Floating exception](#floating-exception)
   - [お知らせ](#お知らせ)
 
 ## 初めに
@@ -347,6 +348,57 @@ int main() {
   return 0;
 }
 ```
+
+## Floating exception
+平均値とか色々計算しているときに見かけることがある実行時エラーです。0除算やオーバーフローが起きるときにオペレーティングシステム（OS）が怒ります。
+
+エラーが出るコード
+```
+#include <stdio.h>
+
+int main() {
+  int numerator   = 1;
+  int denominator = 0;
+
+  printf("Quotient : %d\n", numerator / denominator);
+
+  return 0;
+}
+```
+
+エラーと対処法
+> ```
+> $ ./a.out
+> Floating exception (core dumped)
+> ```
+この結果だけ見ても実行時エラーが起きている場所は分かりません。
+
+そのため通常はデバッガを使用することがほとんどです。デバッガには様々な機能がありますが、その中でもプログラムのトレース実行を用いることで変数の中身の確認や実行時エラーが起きている場所の特定を行うことができます。
+
+ただし、ほとんどの場合では0除算が起きている可能性が高いため、プログラム中の割り算を行っている箇所について、除数が0になっていないかどうか確認することが有効です。また、除数が0になっていた場合にメッセージを出力するなど、実行時エラーが起きそうな箇所にあらかじめ条件分岐を入れておくとプログラムのデバッグがしやすくなります（例外処理）。
+
+改善したコード
+```
+#include <stdio.h>
+
+int main() {
+  int numerator   = 1;
+  int denominator = 0;
+
+  if (denominator != 0) {
+    printf("Quotient : %d\n", numerator / denominator);
+  } else { // Exception handling
+    printf("Division by zero occurred in program.\n");
+  }
+  
+  return 0;
+}
+```
+
+### inf, nan
+0除算は実行時エラーを起こしますが、実は被除数・除数がともに整数型の場合に限ります。浮動小数点数型の場合は、規格上 inf (infinity) が用意されているため、0除算を実行した場合も、計算結果を inf としてその後のプログラムが実行されます。もちろんこれは正常に計算が行われているとは言い難い状況です。そのため、計算結果を出力した際に inf が出力された場合は、（ほとんどの場合）プログラム中の計算式に問題があるため、プログラム全体を見直す必要があります。
+
+また、浮動小数点数型には規格上 nan (Not a Number) が用意されています。これは `sqrt(-1)` のような計算結果が実数でも inf でもない場合に返される値です。inf 同様に計算結果として nan が出力される場合には、正常に計算が行われているとは言い難い状況ですので、プログラム中の計算式を見直す必要があります。
 
 ## お知らせ
 
