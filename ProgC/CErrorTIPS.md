@@ -19,7 +19,7 @@
   - [unknown type name ‘型名’](#unknown-type-name-型名)
   - [format ‘ラベル’ expects argument of type ‘型名A’, but argument 2 has type ‘型名B’ \[-Wall\]](#format-ラベル-expects-argument-of-type-型名a-but-argument-2-has-type-型名b--wall)
   - [Segmentation fault](#segmentation-fault)
-  - [Floating exception](#floating-exception)
+  - [Arithmetic exception](#arithmetic-exception)
   - [お知らせ](#お知らせ)
 
 ## 初めに
@@ -349,7 +349,7 @@ int main() {
 }
 ```
 
-## Floating exception
+## Arithmetic exception
 平均値とか色々計算しているときに見かけることがある実行時エラーです。0除算やオーバーフローが起きるときにオペレーティングシステム（OS）が怒ります。
 
 エラーが出るコード
@@ -367,6 +367,13 @@ int main() {
 ```
 
 エラーと対処法
+
+> ```
+> $ ./a.out
+>  Arithmetic Exception (?????)
+> ```
+
+もしくは環境によっては
 > ```
 > $ ./a.out
 > Floating exception (core dumped)
