@@ -33,7 +33,7 @@ $x^2-4x+3$を因数分解すると$(x-1)(x-3)$となるため，$\displaystyle \
 
 $\displaystyle \frac{1}{(x-1)(x-3)} = \frac{A}{x-1} + \frac{B}{x-3}$に対し，両辺に$(x-1)$をかけると，$\displaystyle \frac{1}{(x-3)} = A + \frac{B}{x-3}(x-1)$となります．
 
-ここで$x$を$1$に近づけるような極限を考えると，（そもそもの分数式は$\mathbb{R}\setminus \{ 1,3 \}$で定義されているはずですので，$x$に$1$を代入するのはよしておきましょう．）
+ここで$x$を$1$に近づけるような極限を考えると，（そもそもの分数式は$\mathbb{R}\setminus \\{ 1,3 \\}$で定義されているはずですので，$x$に$1$を代入するのはよしておきましょう．）
 $\displaystyle \lim_{x \to 1}\frac{1}{(x-3)} = -\frac{1}{2}$  
 $\displaystyle \lim_{x \to 1} \left \\{ A + \frac{B}{x-3}(x-1) \right \\} = A$
 となりますが，恒等式を考えていたわけですから，両辺は一致し$\displaystyle A = -\frac{1}{2}$を得ます．
@@ -53,19 +53,19 @@ $x^3+4x^2+5x+2$を因数分解すると$(x+1)^2(x+2)$となるため，$\display
 まず$C$を求めましょう．
 両辺に$x+2$をかけ，$x$を$-2$に近づけるような極限を考えると，  
 $\displaystyle \lim_{x \to -2} \frac{3x+2}{(x+1)^2(x+2)}(x+2) = -4$  
-$\displaystyle \lim_{x \to -2} \left\{ \frac{A}{(x+1)^2}(x+2) + \frac{B}{x+1}(x+2) + \frac{C}{x+2}(x+2) \right\} = C$
+$\displaystyle \lim_{x \to -2} \left \\{ \frac{A}{(x+1)^2}(x+2) + \frac{B}{x+1}(x+2) + \frac{C}{x+2}(x+2) \right \\} = C$
 より，$C = -4$を得ます．
 
 次に$A$を求めます．
 両辺に$(x+1)^2$をかけ，$x$を$-1$に近づけるような極限を考えると，  
 $\displaystyle \lim_{x \to -1} \frac{3x+2}{(x+1)^2(x+2)}(x+1)^2 = -1$  
-$\displaystyle \lim_{x \to -1} \left\{ \frac{A}{(x+1)^2}(x+1)^2 + \frac{B}{x+1}(x+1)^2 + \frac{C}{x+2}(x+1)^2 \right\} = A$
+$\displaystyle \lim_{x \to -1} \left \\{ \frac{A}{(x+1)^2}(x+1)^2 + \frac{B}{x+1}(x+1)^2 + \frac{C}{x+2}(x+1)^2 \right \\} = A$
 より，$A = -1$を得ます．
 
 最後に$B$を求めます．
 両辺に$(x+1)$をかけ，$x$を$-1$に近づけるような極限を考えると，  
 $\displaystyle \lim_{x \to -1} \frac{3x+2}{(x+1)^2(x+2)}(x+1) = ???$  
-$\displaystyle \lim_{x \to -1} \left\{ \frac{A}{(x+1)^2}(x+1) + \frac{B}{x+1}(x+1) + \frac{C}{x+2}(x+1) \right\} = ???$  
+$\displaystyle \lim_{x \to -1} \left \\{ \frac{A}{(x+1)^2}(x+1) + \frac{B}{x+1}(x+1) + \frac{C}{x+2}(x+1) \right \\} = ???$  
 ダメですね．右辺左辺ともに発散してしまうため，これでは$B$を求めることはできません．
 
 ではどうするかというと，$A$を求めたときの途中式（両辺に$(x+1)^2$をかけたところ）
@@ -77,7 +77,7 @@ $\displaystyle \frac{3x+2}{(x+2)} = A + B(x+1) + \frac{C}{x+2}(x+1)^2$
 そこで，この式の両辺に対し，微分を行ってみます．すると
 $\displaystyle \frac{4}{(x+2)^2} = B + C\frac{(x + 1) (x + 3)}{(x + 2)^2}$
 となるため，右辺に対して$x$を$-1$に近づけるような極限を考えると，
-$\displaystyle \lim_{x \to -1} \left\{ B + C\frac{(x + 1) (x + 3)}{(x + 2)^2} \right\} = B$を得ます．
+$\displaystyle \lim_{x \to -1} \left \\{ B + C\frac{(x + 1) (x + 3)}{(x + 2)^2} \right \\} = B$を得ます．
 一方で，左辺に対して$x$を$-1$に近づけるような極限を考えると，
 $\displaystyle \lim_{x \to -1} \frac{4}{(x+2)^2} = 4$となるため，結果的に$B = 4$を得ます．
 
