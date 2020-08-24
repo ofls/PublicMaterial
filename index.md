@@ -16,11 +16,11 @@
 
 ## 最近の更新
 <!-- 5件程度記載予定 -->
+- 「部分分数分解について」を公開（2020.8.24）
 - 「C言語エラー集」にFloating exceptionのトピックを追加（2020.7.22）
 - 「無限大についてのお話-簡単な演習問題を添えて」を公開（2020.7.16）
 - 「C言語エラー集」を公開（2020.7.2）
 - 「微分方程式入門」を公開（2020.6.24）
-- 「圧縮線形代数」を公開 (2020.6.11)
 
 ## 公開資料一覧
 ### 線形代数
@@ -30,6 +30,7 @@
 - [εについてのお話](https://ofls.github.io/PublicMaterial/Calculus/epsilon.html)
 - [無限大についてのお話-簡単な演習問題を添えて](https://ofls.github.io/PublicMaterial/Calculus/infty.html)
 - [微分方程式入門](https://ofls.github.io/PublicMaterial/Calculus/ODE.html)
+- [部分分数分解について](https://ofls.github.io/PublicMaterial/Calculus/partial-fraction.html)
 
 ### プログラミング（C言語）
 - [C言語エラー集](https://ofls.github.io/PublicMaterial/ProgC/CErrorTIPS.html)
