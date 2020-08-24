@@ -33,7 +33,7 @@ $x^2-4x+3$を因数分解すると$(x-1)(x-3)$となるため，$\displaystyle \
 
 $\displaystyle \frac{1}{(x-1)(x-3)} = \frac{A}{x-1} + \frac{B}{x-3}$に対し，両辺に$(x-1)$をかけると，$\displaystyle \frac{1}{(x-3)} = A + \frac{B}{x-3}(x-1)$となります．
 
-ここで$x$を$1$に近づけるような極限を考えると，（そもそもの分数式は$\mathbb{R}\setminus\{1,3\}$で定義されているはずですので，$x$に$1$を代入するのはよしておきましょう．）
+ここで$x$を$1$に近づけるような極限を考えると，（そもそもの分数式は$\mathbb{R}\setminus \{ 1,3 \}$で定義されているはずですので，$x$に$1$を代入するのはよしておきましょう．）
 $\displaystyle \lim_{x \to 1}\frac{1}{(x-3)} = -\frac{1}{2}$  
 $\displaystyle \lim_{x \to 1} \left\{ A + \frac{B}{x-3}(x-1) \right\} = A$
 となりますが，恒等式を考えていたわけですから，両辺は一致し$\displaystyle A = -\frac{1}{2}$を得ます．
