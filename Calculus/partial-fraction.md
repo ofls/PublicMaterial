@@ -95,7 +95,7 @@ $x^3 - 7 x^2 + 19 x - 13$を因数分解すると$(x^2-6x+13)(x-1)$となるた�
 まず$C$を求めましょう．
 両辺に$x-1$をかけ，$x$を$1$に近づけるような極限を考えると，  
 $\displaystyle \lim_{x \to 1} \frac{x^2 + 4 x + 5}{(x^2-6x+13)(x-1)}(x-1) = \frac{5}{4}$  
-$\displaystyle \lim_{x \to 1} \left\{ \frac{Ax+B}{x^2-6x+13}(x-1) + \frac{C}{x-1}(x-1) \right\} = C$
+$\displaystyle \lim_{x \to 1} \left \\{ \frac{Ax+B}{x^2-6x+13}(x-1) + \frac{C}{x-1}(x-1) \right \\} = C$
 より，$\displaystyle C = \frac{5}{4}$を得ます．
 
 次に$A$と$B$を求めます．実は解答法2は，根が複素数であっても使える方法（$\displaystyle \frac{Ax+B}{x^2-6x+13} = \frac{A^\prime}{x-\beta} + \frac{B^\prime}{x-\bar{\beta}}$のように定数$A^\prime, B^\prime$や根$\beta, \bar{\beta}$を複素数としてさらに分解できる）ですが，これは複素数の計算を要求されるということで，それなりに重い計算になってしまいます．
