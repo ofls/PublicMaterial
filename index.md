@@ -28,6 +28,7 @@
 
 ### 線形代数
 - [圧縮線形代数](https://ofls.github.io/PublicMaterial/LinearAlgebra/LASummary.html)
+- [Linear Algebra Tips](https://ofls.github.io/PublicMaterial/LinearAlgebra/LAtips.html)
   
 ### 微積分
 - [εについてのお話](https://ofls.github.io/PublicMaterial/Calculus/epsilon.html)
