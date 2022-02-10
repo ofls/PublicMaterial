@@ -16,6 +16,7 @@
 
 ## 最近の更新
 <!-- 5件程度記載予定 -->
+- 「関係」「C言語デバッグTIPS」を公開（2022.2.10）
 - 「Linear Algebra Tips」を公開（2022.2.1）
 
 ## 公開資料一覧
@@ -32,5 +33,9 @@
 - [微分方程式入門](https://ofls.github.io/PublicMaterial/Calculus/ODE.html)
 - [部分分数分解について](https://ofls.github.io/PublicMaterial/Calculus/partial-fraction.html)
 
+### 離散系論
+- [関係](https://ofls.github.io/PublicMaterial/DiscreteSystem/Relation.html)
+
 ### プログラミング（C言語）
 - [C言語エラー集](https://ofls.github.io/PublicMaterial/ProgC/CErrorTIPS.html)
+- [C言語デバッグTIPS](https://ofls.github.io/PublicMaterial/ProgC/CDebugTIPS.html)
